@@ -20,6 +20,11 @@
         int a4 = 1000;
         int a3 = 1000;
         int a2 = 1000;
+        
+        
+        
+        
+        int aaa = 2000;
     }
     return self;
 }
