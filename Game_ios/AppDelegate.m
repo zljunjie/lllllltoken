@@ -23,7 +23,7 @@
     ViewController* view = [[ViewController alloc] init];
     UINavigationController* ff =[[UINavigationController alloc] initWithRootViewController:view];
     self.window.rootViewController = ff;
-    
+    NSLog(@"nnnnnnnnnnnnnnn");
     return YES;
 }
 
