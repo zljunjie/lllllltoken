@@ -25,7 +25,6 @@
     NSLog(@"vvvvvvvvvvvvvvvvvvvvvv");
 NSLog(@"vvvvvvvvvvvvvvvvvvvvvv");
 NSLog(@"vvvvvvvvvvvvvvvvvvvvvv");
-NSLog(@"vvvvvvvvvvvvvvvvvvvvvv");
 NSLog(@"vvvvvvvvvvvvvvvvvvvvvv");}
 
 @end
