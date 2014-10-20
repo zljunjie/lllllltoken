@@ -37,7 +37,7 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenColor];
     // Do any additional setup after loading the view.
-    
+    NSArray* fff = @[@"ff"];
     NSArray* array = @[@"小猫",@"小狗",@"小狼",@"返回"];
     
     for (int i = 0; i < 4; i++) {
