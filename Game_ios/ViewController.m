@@ -39,7 +39,7 @@
     self.myTableView.dataSource = self;
     self.dataSoucrd = [@[@"领养宠物",@"退出"] mutableCopy];
     [self.view addSubview:self.myTableView];
-    
+    NSLog(@"33333");NSLog(@"33333");NSLog(@"33333");NSLog(@"33333");NSLog(@"33333");
     _messageTextView = [[UITextView alloc] initWithFrame:CGRectMake(10, 350, 300, 100)];
     [self.view addSubview:_messageTextView];
     
