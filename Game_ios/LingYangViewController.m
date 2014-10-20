@@ -28,6 +28,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         NSLog(@"==========");
+        NSMutableArray *array = [NSMutableArray new];
+    
     }
     return self;
 }
