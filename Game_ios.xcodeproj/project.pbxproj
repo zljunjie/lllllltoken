@@ -15,6 +15,8 @@
 		DA05BA5619B21238004D90BA /* Game_iosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA05BA5519B21238004D90BA /* Game_iosTests.m */; };
 		DA05BA6119B2126B004D90BA /* Animals.m in Sources */ = {isa = PBXBuildFile; fileRef = DA05BA6019B2126B004D90BA /* Animals.m */; };
 		DA05BA6419B218E8004D90BA /* LingYangViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA05BA6319B218E8004D90BA /* LingYangViewController.m */; };
+		DA78CD6819F4F11F00E5AB19 /* fffffTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA78CD6719F4F11F00E5AB19 /* fffffTableViewCell.m */; };
+		DA78CD6B19F4F1C800E5AB19 /* newBarange.m in Sources */ = {isa = PBXBuildFile; fileRef = DA78CD6A19F4F1C800E5AB19 /* newBarange.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,10 @@
 		DA05BA6019B2126B004D90BA /* Animals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animals.m; sourceTree = "<group>"; };
 		DA05BA6219B218E8004D90BA /* LingYangViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LingYangViewController.h; sourceTree = "<group>"; };
 		DA05BA6319B218E8004D90BA /* LingYangViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LingYangViewController.m; sourceTree = "<group>"; };
+		DA78CD6619F4F11F00E5AB19 /* fffffTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fffffTableViewCell.h; sourceTree = "<group>"; };
+		DA78CD6719F4F11F00E5AB19 /* fffffTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = fffffTableViewCell.m; sourceTree = "<group>"; };
+		DA78CD6919F4F1C800E5AB19 /* newBarange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = newBarange.h; sourceTree = "<group>"; };
+		DA78CD6A19F4F1C800E5AB19 /* newBarange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = newBarange.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +99,10 @@
 				DA05BA6319B218E8004D90BA /* LingYangViewController.m */,
 				DA05BA5F19B2126B004D90BA /* Animals.h */,
 				DA05BA6019B2126B004D90BA /* Animals.m */,
+				DA78CD6619F4F11F00E5AB19 /* fffffTableViewCell.h */,
+				DA78CD6719F4F11F00E5AB19 /* fffffTableViewCell.m */,
+				DA78CD6919F4F1C800E5AB19 /* newBarange.h */,
+				DA78CD6A19F4F1C800E5AB19 /* newBarange.m */,
 				DA05BA4619B21238004D90BA /* Main.storyboard */,
 				DA05BA4919B21238004D90BA /* Images.xcassets */,
 				DA05BA3C19B21238004D90BA /* Supporting Files */,
@@ -227,8 +237,10 @@
 			files = (
 				DA05BA6419B218E8004D90BA /* LingYangViewController.m in Sources */,
 				DA05BA4519B21238004D90BA /* ViewController.m in Sources */,
+				DA78CD6819F4F11F00E5AB19 /* fffffTableViewCell.m in Sources */,
 				DA05BA6119B2126B004D90BA /* Animals.m in Sources */,
 				DA05BA4219B21238004D90BA /* AppDelegate.m in Sources */,
+				DA78CD6B19F4F1C800E5AB19 /* newBarange.m in Sources */,
 				DA05BA3F19B21238004D90BA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -416,6 +428,7 @@
 				DA05BA5B19B21238004D90BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DA05BA5C19B21238004D90BA /* Build configuration list for PBXNativeTarget "Game_iosTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +437,7 @@
 				DA05BA5E19B21238004D90BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
