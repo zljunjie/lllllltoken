@@ -15,6 +15,11 @@
     if (self) {
         self.jieValue = 5;
         self.hudongValue = 5;
+        int a = 1000;
+        int a5 = 1000;
+        int a4 = 1000;
+        int a3 = 1000;
+        int a2 = 1000;
     }
     return self;
 }
