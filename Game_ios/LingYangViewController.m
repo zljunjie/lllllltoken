@@ -42,6 +42,7 @@
     NSArray* fff = @[@"ff"];
     NSArray* array = @[@"小猫",@"小狗",@"小狼",@"返回"];
     
+    
     for (int i = 0; i < 4; i++) {
         UIButton* btn = [UIButton buttonWithType:UIButtonTypeCustom];
         [btn setTitle:array[i] forState:UIControlStateNormal];
@@ -50,7 +51,7 @@
         btn.tag = i + 1;
         [self.view addSubview:btn];
     }
-    
+    // NSArray* array = @[@"小猫",@"小狗",@"小狼",@"返回"]; NSArray* array = @[@"小猫",@"小狗",@"小狼",@"返回"]; NSArray* array = @[@"小猫",@"小狗",@"小狼",@"返回"]; NSArray* array = @[@"小猫",@"小狗",@"小狼",@"返回"]; NSArray* array = @[@"小猫",@"小狗",@"小狼",@"返回"]; NSArray* array = @[@"小猫",@"小狗",@"小狼",@"返回"];
     
     maskView = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 320, 500)];
     maskView.backgroundColor = [UIColor whiteColor];
